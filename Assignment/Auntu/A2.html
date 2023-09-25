@@ -23,20 +23,50 @@
         </div>
     </nav>
     <!-- banner -->
-    <div style="background-image: url('img/Bg1.jpg'); background-repeat: no-repeat; background-size: cover;height:800px;">
+    <div style="background-image: url('../../img/A_bg.jpg'); background-repeat: no-repeat; background-size: cover;height:800px;">
         <div class="form-control w-full max-w-xs" style="margin:auto;padding:400px 0px 0px 0px">
 
-            <select class="select select-bordered">
+            <select id="selectAssignment" class="select select-bordered" style="background:#90949e">
                 <option disabled selected>Pick one</option>
-                <option>Assignment-1</option>
-                <option>Assignment-2</option>
-                <option>Assignment-3</option>
-                <option>Assignment-4</option>
-                <option>Assignment-5</option>
+                <option value="assignment1">Assignment-1</option>
+                <option value="assignment2">Assignment-2</option>
+                <option value="assignment3">Assignment-3</option>
+                <option value="assignment4">Assignment-4</option>
+                <option value="assignment5">Assignment-5</option>
             </select>
-
         </div>
     </div>
+    <script>
+        const selectAssignment = document.getElementById('selectAssignment');
+
+        selectAssignment.addEventListener('change', function () {
+            const selectedOption = selectAssignment.options[selectAssignment.selectedIndex].value;
+
+            // Perform redirection based on the selected option
+            switch (selectedOption) {
+                case 'assignment1':
+                    window.location.href = 'https://docs.google.com/document/d/1azlxoPQk9NXNjeuWtBxbn7POtcO0bkpC/edit?usp=sharing&ouid=104593746959853275849&rtpof=true&sd=true';
+                    break;
+                case 'assignment2':
+                    window.location.href = '#';
+                    break;
+                case 'assignment3':
+                    window.location.href = '#';
+                    break;
+                case 'assignment4':
+                    window.location.href = '#';
+                    break;
+                case 'assignment5':
+                    window.location.href = '#';
+                    break;
+                default:
+                    // Handle the default case or show an error message
+                    alert('Please select an assignment.');
+            }
+        });
+
+    </script>
+
 </header>
 
 </body>
