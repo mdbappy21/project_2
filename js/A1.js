@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Perform redirection based on the selected option
         switch (selectedOption) {
             case 'assignment1':
-                window.location.href = 'https://docs.google.com/document/d/11p79cCgR1hLUzCfdaBp0QVmtR7xPlD6b/edit?usp=sharing&ouid=104593746959853275849&rtpof=true&sd=true';
+                window.location.href = 'https://docs.google.com/document/d/16M-rZ70e-dNNbhPGLWttAm-2IDfbLZqw/edit?usp=sharing&ouid=104593746959853275849&rtpof=true&sd=true';
                 break;
             case 'assignment2':
                 window.location.href = '#';
