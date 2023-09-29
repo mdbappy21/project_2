@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 window.location.href = 'https://docs.google.com/document/d/14Ryrrox29eecrTcagDGh65z2bBMDXTa5/edit?usp=sharing&ouid=104593746959853275849&rtpof=true&sd=true';
                 break;
             case 'assignment2':
-                window.location.href = '#';
+                window.location.href = 'https://docs.google.com/document/d/1AqZflRJoWx7pKqRxCnRm7XOCbe4c5nGW/edit?usp=sharing&ouid=104593746959853275849&rtpof=true&sd=true';
                 break;
             case 'assignment3':
                 window.location.href = '#';
