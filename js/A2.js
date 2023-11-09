@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 window.location.href = 'https://docs.google.com/document/d/1f6hZBHGZb9m7Q1V6b93L4t7DwiQ_UqqT/edit?usp=sharing&ouid=104593746959853275849&rtpof=true&sd=true';
                 break;
             case 'assignment3':
-                window.location.href = '#';
+                window.location.href = 'https://docs.google.com/document/d/1bQ1lKucxrgxWOjtMnujsxEHrNMAbb3S7/edit?usp=sharing&ouid=104593746959853275849&rtpof=true&sd=true';
                 break;
             case 'assignment4':
                 window.location.href = '#';
